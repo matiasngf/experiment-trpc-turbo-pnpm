@@ -1,0 +1,30 @@
+{
+  "extends": "@experiment/tsconfig/nextjs.json",
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      // Required to compile ui package: (see file://./../../packages/ui/tsconfig.json)
+      "~ui/*": [
+        "../../packages/ui/*"
+      ],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

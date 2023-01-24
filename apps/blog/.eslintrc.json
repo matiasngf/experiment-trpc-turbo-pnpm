@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "@experiment/eslint-config-custom"
+  ],
+  "settings": {
+    "next": {
+      "rootDir": "apps/blog/"
+    }
+  }
+}

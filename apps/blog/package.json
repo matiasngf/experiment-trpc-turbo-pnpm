@@ -1,0 +1,36 @@
+{
+  "name": "@experiment/blog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@experiment/api": "workspace:*",
+    "@experiment/ui": "workspace:*",
+    "@tanstack/react-query": "^4.22.0",
+    "@trpc/client": "^10.9.0",
+    "@trpc/next": "^10.9.0",
+    "@trpc/react-query": "^10.9.0",
+    "@trpc/server": "^10.9.0",
+    "axios": "^1.2.3",
+    "next": "^13.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "superjson": "^1.12.2",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@experiment/eslint-config-custom": "workspace:*",
+    "@experiment/tsconfig": "workspace:*",
+    "@types/node": "^17.0.12",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "eslint": "7.32.0",
+    "eslint-config-next": "13.0.0",
+    "typescript": "^4.9.4"
+  }
+}

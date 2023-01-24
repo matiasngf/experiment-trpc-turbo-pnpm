@@ -1,0 +1,7 @@
+@import "@experiment/ui/styles/globals.css";
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+}
