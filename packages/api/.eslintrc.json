@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "custom"
+  ],
+  "settings": {
+    "next": {
+      "rootDir": "packages/api/"
+    }
+  }
+}

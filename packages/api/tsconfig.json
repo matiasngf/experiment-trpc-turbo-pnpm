@@ -1,0 +1,19 @@
+{
+  "extends": "@experiment/tsconfig/base.json",
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "jsx": "react-jsx",
+  },
+  "include": [
+    "./index.ts"
+  ]
+}
