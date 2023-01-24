@@ -7,6 +7,7 @@ Inspired by the [tRPC examples](https://trpc.io/docs/awesome-trpc)
 - Monorepo with pnpm
 - E2E typesafety with tRPC
 - Full-stack React with Next.js
+- Static site generation with Next.js
 - TailwindCSS
 - Storybook
 - VSCode extensions
