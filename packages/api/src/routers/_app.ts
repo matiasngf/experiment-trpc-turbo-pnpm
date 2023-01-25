@@ -1,14 +1,12 @@
 import { publicProcedure, router } from '../trpc';
 import { postRouter } from './post';
 
-const createAppRouter = () => {
-  const appRouter = router({
-    healthcheck: publicProcedure.query(() => 'yay!'),
-    post: postRouter,
-  });
-  return appRouter;
+const routes = {
+  healthcheck: publicProcedure.query(() => 'yay!'),
+  post: postRouter,
 }
 
-export const appRouter = createAppRouter();
+export const appRouter = router(routes);
 
-export type AppRouter = ReturnType<typeof createAppRouter>;
+export type AppRouter = typeof appRouter;
+export type Routes = keyof typeof routes;

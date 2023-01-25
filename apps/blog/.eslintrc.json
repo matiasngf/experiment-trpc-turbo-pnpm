@@ -3,6 +3,16 @@
     "next/core-web-vitals",
     "@experiment/eslint-config-custom"
   ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ]
+  },
   "settings": {
     "next": {
       "rootDir": "apps/blog/"

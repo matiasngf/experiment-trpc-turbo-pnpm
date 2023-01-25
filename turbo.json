@@ -5,11 +5,15 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
     },
+    "@experiment/blog#build": {
+      "env": ["VERCEL_URL", "RENDER_INTERNAL_HOSTNAME", "PORT"]
+    },
     "lint": {
       "outputs": []
     },
     "dev": {
       "cache": false
     }
-  }
+  },
+  "globalEnv": ["NODE_ENV"]
 }

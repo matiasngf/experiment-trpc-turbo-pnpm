@@ -79,11 +79,11 @@ importers:
       typescript: ^4.9.4
       zod: ^3.20.2
     dependencies:
-      '@trpc/server': 10.9.0
       axios: 1.2.3
     devDependencies:
       '@experiment/eslint-config-custom': link:../eslint-config-custom
       '@experiment/tsconfig': link:../tsconfig
+      '@trpc/server': 10.9.0
       cross-env: 7.0.3
       del: 7.0.0
       eslint: 7.32.0
@@ -3597,7 +3597,6 @@ packages:
 
   /@trpc/server/10.9.0:
     resolution: {integrity: sha512-5psyZgbvy29pJND32hwkWTMbv6s86IbsPOeDopsgNF0VegZT6Dsijmb7Ub/TDhuJVQVq5u4u5briMXi3SxmBkw==}
-    dev: false
 
   /@types/eslint-scope/3.7.4:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
